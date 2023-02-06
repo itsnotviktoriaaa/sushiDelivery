@@ -1,0 +1,138 @@
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 931px) {
+
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        grid-row-gap: 15px;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .main-right {
+        grid-column: unset;
+        justify-self: center;
+    }
+
+    .person {
+        grid-template-columns: 1fr;
+        grid-column-gap: unset;
+        grid-row-gap: 15px;
+    }
+
+    .person-right {
+        grid-column: unset;
+        grid-row: inset;
+    }
+
+    .person-description {
+        margin-bottom: 0;
+        max-width: 680px;
+    }
+
+    .footer {
+        grid-column-gap: 130px;
+    }
+
+}
+
+@media screen and (max-width: 528px) {
+
+    .menu-items .menu-item:not(:last-child) {
+        margin-right: 18px;
+    }
+
+    .main-description-sushi {
+        margin-left: 20px;
+    }
+
+    .main {
+        padding: 23px 0 27px 0;
+    }
+
+    .choice {
+        padding: 83px 0 19px 0;
+    }
+}
+
+    @media screen and (max-width: 449px) {
+        .footer {
+            grid-column-gap: 24px;
+        }
+
+        .read-more-ellipses a {
+            margin-right: 10px;
+        }
+
+        .orders {
+            grid-row-gap: 15px;
+        }
+
+        .order {
+            margin: 0;
+        }
+
+        .main-description-tuna {
+            margin-bottom: 10px;
+        }
+
+        .main-description-sushi {
+            margin-left: 0;
+        }
+
+    }
+
+@media screen and (max-width: 405px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        color: white;
+        font-size: 25px;
+        order: 1;
+        justify-self: center;
+    }
+
+    .header {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: unset;
+        grid-row-gap: unset;
+        grid-column-gap: 10px;
+    }
+
+    .logo {
+        order: 2;
+        justify-self: start;
+    }
+
+    .main h1 {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .choice-h2-text {
+        font-size: 35px;
+    }
+
+    .logo-1 {
+        order: 1;
+    }
+
+    .rights {
+        order: 2;
+    }
+
+}
